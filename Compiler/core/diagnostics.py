@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from typing import Any
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Diagnostic:
     code: str
     message: str
