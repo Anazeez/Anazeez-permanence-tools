@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "schema": "mnemosyne.context-runway/1.0",
+    "runway_id": "rwy_current",
+    "identity_id": "ariadne",
+    "project_id": "project-infinitum",
+    "scope_key": "architecture",
+    "generation": 12,
+    "predecessor_runway_id": "rwy_previous",
+    "source_invocation_id": "inv_current",
+    "objective": "Compile deterministic contextual continuity",
+    "operational_state": "The implementation contract is under review",
+    "decisions_in_force": [
+      {
+        "id": "decision_exact_first",
+        "summary": "Exact continuity resolves before probabilistic retrieval",
+        "source_ref": "contract:MNEM-CONTINUITY-002"
+      }
+    ],
+    "open_threads": [],
+    "next_actions": ["Verify the portable artifact"],
+    "mounted_skills": [],
+    "relevant_agents": [],
+    "relevant_files": [],
+    "knowledge_references": [],
+    "library_references": [],
+    "pending_handoffs": [],
+    "constraints": ["Do not grant authority"],
+    "prohibited_assumptions": ["Similarity does not establish currency"],
+    "integrity_warnings": [],
+    "source_hashes": [
+      {
+        "source_ref": "contract:MNEM-CONTINUITY-002",
+        "sha256": "f225ba9b654179a6c382412ca3ce0e861541edd79933e40384dd61e4c24c2d76"
+      }
+    ],
+    "created_at": "2026-07-15T10:00:00.000Z"
+  },
+  "source_hashes": [
+    {
+      "source_ref": "contract:MNEM-CONTINUITY-002",
+      "sha256": "f225ba9b654179a6c382412ca3ce0e861541edd79933e40384dd61e4c24c2d76"
+    }
+  ],
+  "sources": [
+    {
+      "source_ref": "contract:MNEM-CONTINUITY-002",
+      "content": "Exact continuity resolves before probabilistic retrieval.",
+      "sha256": "f225ba9b654179a6c382412ca3ce0e861541edd79933e40384dd61e4c24c2d76"
+    }
+  ],
+  "predecessor": {
+    "runway_id": "rwy_previous",
+    "identity_id": "ariadne",
+    "project_id": "project-infinitum",
+    "scope_key": "architecture",
+    "generation": 11,
+    "predecessor_runway_id": "rwy_genesis",
+    "next_actions": []
+  }
+}
